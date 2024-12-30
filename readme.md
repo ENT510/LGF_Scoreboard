@@ -1,5 +1,5 @@
 ![GitHub Downloads](https://img.shields.io/github/downloads/ENT510/LGF_Scoreboard/total?logo=github)
-![GitHub Release](https://img.shields.io/github/v/release/ENT510/LGF_Scoreboard?logo=github)
+![GitHub Release](https://img.shields.io/github/v/release/ENT510/?logo=github)
 
 **LGF_Scoreboard** is a simple modular and efficient scoreboard solution developed in TypeScript, designed to cater to the needs of FiveM Roleplay servers
 
