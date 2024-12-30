@@ -1,0 +1,41 @@
+:root {
+    --panel-bg-color: rgb(45, 55, 72); 
+    --panel-border-radius: 8px;
+    --panel-transition-duration: 0.7s; 
+    --panel-gap: 18px;  
+}
+
+body {
+    user-select: none;
+    color: #e0e0e0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+    background-image: url("https://i.imgur.com/iPTAdYV.png");
+}
+
+.container-top-scoreboard {
+    position: absolute;
+    top: 12%; 
+    left: 2%;
+    width: 330px; 
+    height: 56%; 
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: var(--panel-gap);
+    background: var(--panel-bg-color);
+    border-radius: var(--panel-border-radius);
+    border: 3px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.7); 
+    color: #fafafa;
+    transition: opacity var(--panel-transition-duration) ease-in-out;
+}
+
+.slide-in {
+    opacity: 1;
+}
+
+.slide-out {
+    opacity: 0;
+    pointer-events: none;
+}
